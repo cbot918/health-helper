@@ -1,7 +1,7 @@
 install_py(){
   sudo apt update && apt install python3 && apt install python3-pip
-  pip3 install pytest
-  pytest --version
+  sudo pip3 install pytest
+  sudo pytest --version
 }
 install_py
 
